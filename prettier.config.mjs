@@ -1,7 +1,7 @@
 /** @type {import("@ianvs/prettier-plugin-sort-imports").PrettierConfig} */
 const config = {
   endOfLine: 'lf',
-  semi: false,
+  semi: true,
   singleQuote: true,
   tabWidth: 2,
   trailingComma: 'es5',
@@ -30,6 +30,6 @@ const config = {
   importOrderSeparation: false,
   importOrderSortSpecifiers: true,
   plugins: ['@ianvs/prettier-plugin-sort-imports', 'prettier-plugin-tailwindcss'],
-}
+};
 
-export default config
+export default config;
